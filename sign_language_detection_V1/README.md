@@ -4,11 +4,7 @@
 this is a basic sign language detection
 it only detects two signs so far with accuracy of 100% on training and 100% on validation (it doesn't make scene i know) it also contains the model weights 
 
-https://drive.google.com/drive/folders/1RDPSpDedsQX0TLfor0JkkkpzEcA8oN47?usp=sharing
-
-
-
-[Download weights ]: (https://drive.google.com/drive/folders/1RDPSpDedsQX0TLfor0JkkkpzEcA8oN47?usp=sharing)
+[Download weights](https://drive.google.com/drive/folders/1RDPSpDedsQX0TLfor0JkkkpzEcA8oN47?usp=sharing)
 
 
 # progress so far

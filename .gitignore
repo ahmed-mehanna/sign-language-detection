@@ -3,3 +3,5 @@
 data/
 MP_Data/
 *MP_Data/
+.ipynb_checkpoints
+*.mp4

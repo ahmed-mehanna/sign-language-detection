@@ -1,5 +1,3 @@
 *.h5
 *model.json
-data/
-MP_Data/
-*MP_Data/
+

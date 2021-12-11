@@ -16,7 +16,7 @@ actions = list('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
 n_videos = 1
 
 # Videos are going to be 30 frames in length
-video_length = 1
+video_length = 2
 
 frames_per_seconds=25
 
@@ -44,7 +44,6 @@ def write_text(image,text,position,size='s'):
         
         
 
-        
 cap = cv2.VideoCapture(0)
 continue_training=True
 for action in actions:
@@ -52,11 +51,11 @@ for action in actions:
         break
     
     ret, frame = cap.read()
-    write_text(frame,"STARTING COLLECTING",(120,200),'l')
+    write_text(frame,"STARTING in 2 seconds",(120,200),'l')
     write_text(frame,'Collecting frames for {}'.format(action),(15,12))
     cv2.imshow('OpenCV Feed', frame)
-    if cv2.waitKey(0) & 0xFF == ord('s'):
-        pass
+    cv2.waitKey(2000)
+        
 
 
     start_time=time.time()
@@ -71,14 +70,14 @@ for action in actions:
         # NEW Apply wait logic
         if frame_num == -1: 
             write_text(frame,"STARTING COLLECTING",(120,200),'l')
-            write_text(frame,'Collecting frames for {} Video Number {}'.format(action, video),(15,12))
+            write_text(frame,'Collecting frames for {}'.format(action),(15,12))
             write_text(frame,'time {}'.format(round(time.time()-start_time),2),(15,40))
             cv2.imshow('OpenCV Feed', frame)
             cv2.waitKey(500)
 
         else: 
             out.write(frame)
-            write_text(frame,'Collecting frames for {} Video Number {}'.format(action, video),(15,12))
+            write_text(frame,'Collecting frames for {}'.format(action),(15,12))
             write_text(frame,'time {}'.format(round(time.time()-start_time,2)),(15,40))
             write_text(frame,'frame {}'.format(frame_num),(15,64))
             cv2.imshow('OpenCV Feed', frame)
@@ -100,3 +99,6 @@ for action in actions:
 
 cap.release()
 cv2.destroyAllWindows()
+
+
+

@@ -59,11 +59,11 @@ for action in actions:
         start_video=0
     
     ret, frame = cap.read()
-    write_text(frame,"STARTING COLLECTING",(120,200),'l')
+    write_text(frame,"STARTING in 2 seconds" ,(120,200),'l')
     write_text(frame,'Collecting frames for {}'.format(action),(15,12))
     cv2.imshow('OpenCV Feed', frame)
-    if cv2.waitKey(0) & 0xFF == ord('s'):
-        pass
+    cv2.waitKey(2000)
+        
                     
     
     for video in range(start_video,n_videos):

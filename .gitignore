@@ -7,3 +7,5 @@ data_letters/
 .ipynb_checkpoints
 *.mp4
 *extracted_features.npy
+*.npy
+Logs/

@@ -9,3 +9,5 @@ data_letters/
 *extracted_features.npy
 *.npy
 Logs/
+*.pt
+FinalData/

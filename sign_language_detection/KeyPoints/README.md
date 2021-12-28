@@ -29,7 +29,7 @@ on many problems but it won't work well on our problem because pose estimation d
 # Models Comparison
 
 | Model | n classes |data source| train_acc | Top 1% | Top 5% | 
-| ------ | ------ | ------ | ------ | ------ | 
+| ------ | ------ | ------ | ------ | ------ | ------ | 
 | mediapipe + LSTM (Fn) | 3 | 3 | n | n2 | n3 | 
 | mediapipe + LSTM (Fn) | 3 | 3 | n | n2 | n3 | 
 | mediapipe + LSTM (Fn) | 3 | 3 | n | n2 | n3 | 

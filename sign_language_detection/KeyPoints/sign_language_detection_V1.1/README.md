@@ -1,4 +1,4 @@
-# first approac
+# first approach
 
 
 the first approach here was to use mediapipe and extract keypoints from videos i made and test them before trying on actual data

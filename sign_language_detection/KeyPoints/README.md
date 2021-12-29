@@ -41,3 +41,11 @@ on many problems but it won't work well on our problem because pose estimation d
 
 # how the real predection work
 - [ ] provide info of the techniques used to make the real prediction
+
+
+
+
+# Current Version
+v1 : the LSTM model with 5 signs i collected
+V2 : LSTM with AUTSL for 20 signs
+v3 : Binary Classification with any possible model

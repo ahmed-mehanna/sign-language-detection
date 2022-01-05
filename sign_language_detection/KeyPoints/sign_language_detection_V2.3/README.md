@@ -24,8 +24,18 @@
  
  - the model still confuse between sister and brother so i need to find solution to this(maybe use the data i made once)
  
+- Task 5
+- collect data for 10 classes (6 aug and 1 original)
+- write classifier for 10 signs
+- test on two models one on colab and the other on my device
+- train each model more than one time from scratch
+- save all weight (one of them was deleted because it was bad)
+- the model perform very good but each one has some limits
 
 
 
+future improvements 
+- find a way to work with mediapipe failure to detec movement
+- increase number of frames
 
-future improvements (add more data and more signs) try the 10 sign model 
+

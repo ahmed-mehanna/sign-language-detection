@@ -1,0 +1,248 @@
+{
+  "sign_006_1": {
+    "word": ["وزارة"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "00:34"
+  },
+  "sign_006_2": {
+    "word": ["وزير"],
+    "description": "اشارة شخص + وزارة",
+    "video_num": 14,
+    "sign_time": "00:49"
+  },
+  "sign_006_3": {
+    "word": ["عالي"],
+    "description": "وزراة التعليم العالى",
+    "video_num": 14,
+    "sign_time": "2:30"
+  },
+  "sign_006_4": {
+    "word": ["خارجية"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "3:12"
+  },
+  "sign_006_5": {
+    "word": ["داخلية"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "3:37"
+  },
+  "sign_006_6": {
+    "word": ["أوقاف"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "4:13"
+  },
+  "sign_006_7": {
+    "word": ["صحة"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "4:35"
+  },
+  "sign_006_8": {
+    "word": ["بيئة"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "5:05"
+  },
+  "sign_006_9": {
+    "word": ["إسكان"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "5:41"
+  },
+  "sign_006_10": {
+    "word": ["مالية"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "6:28"
+  },
+  "sign_006_11": {
+    "word": ["تجارة"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "6:34"
+  },
+  "sign_006_12": {
+    "word": ["تموين"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "6:49"
+  },
+  "sign_006_13": {
+    "word": ["دفاع"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "7:08"
+  },
+  "sign_006_14": {
+    "word": ["بترول"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "7:23"
+  },
+  "sign_006_15": {
+    "word": ["كهرباء"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "7:54"
+  },
+  "sign_006_16": {
+    "word": ["سياحة"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "8:06"
+  },
+  "sign_006_17": {
+    "word": ["شباب "],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "8:40"
+  },
+  "sign_006_18": {
+    "word": ["رياضة"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "8:40"
+  },
+  "sign_006_19": {
+    "word": ["صناعة"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "9:20"
+  },
+  "sign_006_20": {
+    "word": ["عدل"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "9:46"
+  },
+  "sign_006_21": {
+    "word": ["زراعة"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "10:10"
+  },
+  "sign_006_22": {
+    "word": ["نقل"],
+    "description": "وزارة النقل",
+    "video_num": 14,
+    "sign_time": "10:24"
+  },
+  "sign_006_23": {
+    "word": ["دستور"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "10:54"
+  },
+  "sign_006_24": {
+    "word": ["قانون"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "11:14"
+  },
+  "sign_006_25": {
+    "word": ["شغل"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "11:36"
+  },
+  "sign_006_26": {
+    "word": ["حكومى", "حكومة"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "11:58"
+  },
+  "sign_006_27": {
+    "word": ["خاص", "خاصة"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "12:02"
+  },
+  "sign_006_28": {
+    "word": ["شركة"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "12:30"
+  },
+  "sign_006_29": {
+    "word": ["عام/عالم"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "12:52"
+  },
+  "sign_006_30": {
+    "word": ["مكتب"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "13:11"
+  },
+  "sign_006_31": {
+    "word": ["مجلس الشعب"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "13:45"
+  },
+  "sign_006_32": {
+    "word": ["انتخابات", "انتخاب"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "14:00"
+  },
+  "sign_006_33": {
+    "word": ["تقديم"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "14:27"
+  },
+  "sign_006_34": {
+    "word": ["وظيفة"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "14:41"
+  },
+  "sign_006_35": {
+    "word": ["صورة", "صور"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "14:54"
+  },
+  "sign_006_36": {
+    "word": ["شخصية"],
+    "description": "صورة شخصية",
+    "video_num": 14,
+    "sign_time": "14:54"
+  },
+  "sign_006_37": {
+    "word": ["فيش"],
+    "description": "فيش بيتعمل فى القسم",
+    "video_num": 14,
+    "sign_time": "15:16"
+  },
+  "sign_006_38": {
+    "word": ["شهادة"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "15:43"
+  },
+  "sign_006_39": {
+    "word": ["صحية"],
+    "description": "شهادة صحية",
+    "video_num": 14,
+    "sign_time": "15:43"
+  },
+  "sign_006_40": {
+    "word": ["ميلاد"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "15:52"
+  },
+  "sign_006_41": {
+    "word": ["شهادة ميلاد"],
+    "description": "هناك اشارة واحدة لشهادة ميلاد ويمكن ان تكون اشارتين ",
+    "video_num": 14,
+    "sign_time": "15:52"
+  }
+}

@@ -1,432 +1,432 @@
 {
   "sign_015_1": {
-    "word": ["دين"],
+    "words": ["دين"],
     "description": "",
     "video_num": 20,
     "sign_time": "00:41"
   },
   "sign_015_2": {
-    "word": ["تفسير القرآن الكريم"],
+    "words": ["تفسير القرآن الكريم"],
     "description": "",
     "video_num": 20,
     "sign_time": "1:02"
   },
   "sign_015_3": {
-    "word": ["بسم الله الرحمن الرحيم"],
+    "words": ["بسم الله الرحمن الرحيم"],
     "description": "",
     "video_num": 20,
     "sign_time": "1:32"
   },
   "sign_015_4": {
-    "word": ["سبحان الله"],
+    "words": ["سبحان الله"],
     "description": "",
     "video_num": 20,
     "sign_time": "3:00"
   },
   "sign_015_5": {
-    "word": ["أشهد أن لا إله إلا الله"],
+    "words": ["أشهد أن لا إله إلا الله"],
     "description": "",
     "video_num": 20,
     "sign_time": "3:47"
   },
   "sign_015_6": {
-    "word": ["محمد رسول الله"],
+    "words": ["محمد رسول الله"],
     "description": "",
     "video_num": 20,
     "sign_time": "5:06"
   },
   "sign_015_7": {
-    "word": ["سورة"],
+    "words": ["سورة"],
     "description": "",
     "video_num": 20,
     "sign_time": "6:04"
   },
   "sign_015_8": {
-    "word": ["آية"],
+    "words": ["آية"],
     "description": "",
     "video_num": 20,
     "sign_time": "6:15"
   },
   "sign_015_9": {
-    "word": ["الحمد لله"],
+    "words": ["الحمد لله"],
     "description": "",
     "video_num": 20,
     "sign_time": "6:32"
   },
   "sign_015_10": {
-    "word": ["صدق الله العظيم"],
+    "words": ["صدق الله العظيم"],
     "description": "",
     "video_num": 20,
     "sign_time": "6:44"
   },
   "sign_015_11": {
-    "word": ["الوضوء"],
+    "words": ["الوضوء"],
     "description": "",
     "video_num": 20,
     "sign_time": "7:07"
   },
   "sign_015_12": {
-    "word": ["الطهارة"],
+    "words": ["الطهارة"],
     "description": "",
     "video_num": 20,
     "sign_time": "7:15"
   },
   "sign_015_13": {
-    "word": ["الآذان"],
+    "words": ["الآذان"],
     "description": "",
     "video_num": 20,
     "sign_time": "7:40"
   },
   "sign_015_14": {
-    "word": ["الصلاة"],
+    "words": ["الصلاة"],
     "description": "",
     "video_num": 20,
     "sign_time": "8:41"
   },
   "sign_015_15": {
-    "word": ["الفجر"],
+    "words": ["الفجر"],
     "description": "",
     "video_num": 20,
     "sign_time": "9:30"
   },
   "sign_015_16": {
-    "word": ["الظهر"],
+    "words": ["الظهر"],
     "description": "",
     "video_num": 20,
     "sign_time": "9:45"
   },
   "sign_015_17": {
-    "word": ["العصر"],
+    "words": ["العصر"],
     "description": "",
     "video_num": 20,
     "sign_time": "9:52"
   },
   "sign_015_18": {
-    "word": ["المغرب"],
+    "words": ["المغرب"],
     "description": "",
     "video_num": 20,
     "sign_time": "9:55"
   },
   "sign_015_19": {
-    "word": ["العشاء"],
+    "words": ["العشاء"],
     "description": "",
     "video_num": 20,
     "sign_time": "10:00"
   },
   "sign_015_20": {
-    "word": ["الفجر-الظهر"],
+    "words": ["الفجر-الظهر"],
     "description": "",
     "video_num": 20,
     "sign_time": "10:31"
   },
   "sign_015_21": {
-    "word": ["صلاة الجمعة"],
+    "words": ["صلاة الجمعة"],
     "description": "",
     "video_num": 20,
     "sign_time": "12:50"
   },
   "sign_015_22": {
-    "word": ["صلاة العيد"],
+    "words": ["صلاة العيد"],
     "description": "",
     "video_num": 20,
     "sign_time": "13:06"
   },
   "sign_015_23": {
-    "word": ["سنة"],
+    "words": ["سنة"],
     "description": "",
     "video_num": 20,
     "sign_time": "13:36"
   },
   "sign_015_24": {
-    "word": ["حسنات"],
+    "words": ["حسنات"],
     "description": "",
     "video_num": 20,
     "sign_time": "14:00"
   },
   "sign_015_25": {
-    "word": [""],
+    "words": [""],
     "description": "",
     "video_num": 20,
     "sign_time": "14:00سيئات"
   },
   "sign_015_26": {
-    "word": ["حرام"],
+    "words": ["حرام"],
     "description": "",
     "video_num": 20,
     "sign_time": "14:18"
   },
   "sign_015_27": {
-    "word": ["حلال"],
+    "words": ["حلال"],
     "description": "",
     "video_num": 20,
     "sign_time": "14:34"
   },
   "sign_015_28": {
-    "word": ["نبي"],
+    "words": ["نبي"],
     "description": "",
     "video_num": 20,
     "sign_time": "14:59"
   },
   "sign_015_29": {
-    "word": ["نبي الله آدم"],
+    "words": ["نبي الله آدم"],
     "description": "",
     "video_num": 20,
     "sign_time": "15:15"
   },
   "sign_015_30": {
-    "word": ["نبي الله نوح"],
+    "words": ["نبي الله نوح"],
     "description": "",
     "video_num": 20,
     "sign_time": "15:51"
   },
   "sign_015_31": {
-    "word": ["نبي الله يوسف"],
+    "words": ["نبي الله يوسف"],
     "description": "",
     "video_num": 20,
     "sign_time": "16:06"
   },
   "sign_015_32": {
-    "word": ["نبي الله يعقوب"],
+    "words": ["نبي الله يعقوب"],
     "description": "",
     "video_num": 20,
     "sign_time": "16:31"
   },
   "sign_015_33": {
-    "word": ["نبي الله أيوب"],
+    "words": ["نبي الله أيوب"],
     "description": "",
     "video_num": 20,
     "sign_time": "16:50"
   },
   "sign_015_34": {
-    "word": ["نبي الله سليمان"],
+    "words": ["نبي الله سليمان"],
     "description": "",
     "video_num": 20,
     "sign_time": "17:11"
   },
   "sign_015_35": {
-    "word": ["نبي الله صالح"],
+    "words": ["نبي الله صالح"],
     "description": "",
     "video_num": 20,
     "sign_time": "17:23"
   },
   "sign_015_36": {
-    "word": ["نبي الله عيسي"],
+    "words": ["نبي الله عيسي"],
     "description": "",
     "video_num": 20,
     "sign_time": "17:40"
   },
   "sign_015_37": {
-    "word": ["نبي الله موسي"],
+    "words": ["نبي الله موسي"],
     "description": "",
     "video_num": 20,
     "sign_time": "18:01"
   },
   "sign_015_38": {
-    "word": ["نبي الله اسماعيل"],
+    "words": ["نبي الله اسماعيل"],
     "description": "",
     "video_num": 20,
     "sign_time": "18:21"
   },
   "sign_015_39": {
-    "word": ["أركان الإسلام"],
+    "words": ["أركان الإسلام"],
     "description": "",
     "video_num": 20,
     "sign_time": "18:42"
   },
   "sign_015_40": {
-    "word": ["الشهادتين"],
+    "words": ["الشهادتين"],
     "description": "",
     "video_num": 20,
     "sign_time": "19:12"
   },
   "sign_015_41": {
-    "word": ["إقامة الصلاة"],
+    "words": ["إقامة الصلاة"],
     "description": "",
     "video_num": 20,
     "sign_time": "19:33"
   },
   "sign_015_42": {
-    "word": ["زكاة"],
+    "words": ["زكاة"],
     "description": "",
     "video_num": 20,
     "sign_time": "19:32"
   },
   "sign_015_43": {
-    "word": ["صدقة"],
+    "words": ["صدقة"],
     "description": "",
     "video_num": 20,
     "sign_time": "19:48"
   },
   "sign_015_44": {
-    "word": ["صوم رمضان"],
+    "words": ["صوم رمضان"],
     "description": "",
     "video_num": 20,
     "sign_time": "20:06"
   },
   "sign_015_45": {
-    "word": ["الحج"],
+    "words": ["الحج"],
     "description": "",
     "video_num": 20,
     "sign_time": "20:24"
   },
   "sign_015_46": {
-    "word": ["العمرة"],
+    "words": ["العمرة"],
     "description": "",
     "video_num": 20,
     "sign_time": "20:48"
   },
   "sign_015_47": {
-    "word": ["المدينة المنورة"],
+    "words": ["المدينة المنورة"],
     "description": "",
     "video_num": 20,
     "sign_time": "21:04"
   },
   "sign_015_48": {
-    "word": ["الإسراء والمعراج"],
+    "words": ["الإسراء والمعراج"],
     "description": "",
     "video_num": 20,
     "sign_time": "21:23"
   },
   "sign_015_49": {
-    "word": ["الصفا والمروة"],
+    "words": ["الصفا والمروة"],
     "description": "",
     "video_num": 20,
     "sign_time": "21:39"
   },
   "sign_015_50": {
-    "word": ["المسجد الأقصى"],
+    "words": ["المسجد الأقصى"],
     "description": "",
     "video_num": 20,
     "sign_time": "21:54"
   },
   "sign_015_51": {
-    "word": ["المغضوب عليهم"],
+    "words": ["المغضوب عليهم"],
     "description": "",
     "video_num": 20,
     "sign_time": "22:08"
   },
   "sign_015_52": {
-    "word": ["مسجد"],
+    "words": ["مسجد"],
     "description": "",
     "video_num": 20,
     "sign_time": "22:25"
   },
   "sign_015_53": {
-    "word": ["كنيسة"],
+    "words": ["كنيسة"],
     "description": "",
     "video_num": 20,
     "sign_time": "22:36"
   },
   "sign_015_54": {
-    "word": ["مسلم/مسيحي"],
+    "words": ["مسلم/مسيحي"],
     "description": "",
     "video_num": 20,
     "sign_time": "23:00"
   },
   "sign_015_55": {
-    "word": ["يهودي"],
+    "words": ["يهودي"],
     "description": "",
     "video_num": 20,
     "sign_time": "23:12"
   },
   "sign_015_56": {
-    "word": ["الملائكة"],
+    "words": ["الملائكة"],
     "description": "",
     "video_num": 20,
     "sign_time": "23:38"
   },
   "sign_015_57": {
-    "word": ["يوم القيامة"],
+    "words": ["يوم القيامة"],
     "description": "",
     "video_num": 20,
     "sign_time": "23:55"
   },
   "sign_015_58": {
-    "word": ["أصنام"],
+    "words": ["أصنام"],
     "description": "",
     "video_num": 20,
     "sign_time": "24:11"
   },
   "sign_015_59": {
-    "word": ["بدعة"],
+    "words": ["بدعة"],
     "description": "",
     "video_num": 20,
     "sign_time": "24:19"
   },
   "sign_015_60": {
-    "word": ["مات"],
+    "words": ["مات"],
     "description": "",
     "video_num": 20,
     "sign_time": "24:26"
   },
   "sign_015_61": {
-    "word": ["دفن"],
+    "words": ["دفن"],
     "description": "",
     "video_num": 20,
     "sign_time": "24:35"
   },
   "sign_015_62": {
-    "word": ["روح"],
+    "words": ["روح"],
     "description": "",
     "video_num": 20,
     "sign_time": "24:46"
   },
   "sign_015_63": {
-    "word": ["معجزة"],
+    "words": ["معجزة"],
     "description": "",
     "video_num": 20,
     "sign_time": "24:58"
   },
   "sign_015_64": {
-    "word": ["النية"],
+    "words": ["النية"],
     "description": "",
     "video_num": 20,
     "sign_time": "25:07"
   },
   "sign_015_65": {
-    "word": ["يتيم"],
+    "words": ["يتيم"],
     "description": "",
     "video_num": 20,
     "sign_time": "25:18"
   },
   "sign_015_66": {
-    "word": ["ربنا يسامحك"],
+    "words": ["ربنا يسامحك"],
     "description": "",
     "video_num": 20,
     "sign_time": "25:38"
   },
   "sign_015_67": {
-    "word": ["أنا مسامحك"],
+    "words": ["أنا مسامحك"],
     "description": "",
     "video_num": 20,
     "sign_time": "25:49"
   },
   "sign_015_68": {
-    "word": ["فتنة"],
+    "words": ["فتنة"],
     "description": "",
     "video_num": 20,
     "sign_time": "26:02"
   },
   "sign_015_69": {
-    "word": ["نميمة"],
+    "words": ["نميمة"],
     "description": "",
     "video_num": 20,
     "sign_time": "26:10"
   },
   "sign_015_70": {
-    "word": ["مغفرة"],
+    "words": ["مغفرة"],
     "description": "",
     "video_num": 20,
     "sign_time": "26:19"
   },
   "sign_015_71": {
-    "word": ["قضاء وقدر"],
+    "words": ["قضاء وقدر"],
     "description": "",
     "video_num": 20,
     "sign_time": "26:36"
   },
   "sign_015_72": {
-    "word": ["غزوة"],
+    "words": ["غزوة"],
     "description": "",
     "video_num": 20,
     "sign_time": "26:51"

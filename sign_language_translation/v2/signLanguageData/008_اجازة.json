@@ -1,186 +1,186 @@
 {
   "sign_008_1": {
-    "word": ["إجازة"],
+    "words": ["إجازة"],
     "description": "",
     "video_num": 15,
     "sign_time": "00:45"
   },
   "sign_008_2": {
-    "word": ["عيد"],
+    "words": ["عيد"],
     "description": "",
     "video_num": 15,
     "sign_time": "1:12"
   },
   "sign_008_3": {
-    "word": ["عمال"],
+    "words": ["عمال"],
     "description": "",
     "video_num": 15,
     "sign_time": "2:24"
   },
   "sign_008_4": {
-    "word": ["أضحى"],
+    "words": ["أضحى"],
     "description": "",
     "video_num": 15,
     "sign_time": "2:53"
   },
   "sign_008_5": {
-    "word": ["فطر"],
+    "words": ["فطر"],
     "description": "",
     "video_num": 15,
     "sign_time": "3:29"
   },
   "sign_008_6": {
-    "word": ["تحرير سيناء"],
+    "words": ["تحرير سيناء"],
     "description": "",
     "video_num": 15,
     "sign_time": "3:47"
   },
   "sign_008_7": {
-    "word": ["قوات مسلحة", "جيش"],
+    "words": ["قوات مسلحة", "جيش"],
     "description": "",
     "video_num": 15,
     "sign_time": "4:24"
   },
   "sign_008_8": {
-    "word": ["ثورة"],
+    "words": ["ثورة"],
     "description": "",
     "video_num": 15,
     "sign_time": "4:42"
   },
   "sign_008_9": {
-    "word": ["شم نسيم"],
+    "words": ["شم نسيم"],
     "description": "",
     "video_num": 15,
     "sign_time": "5:11"
   },
   "sign_008_10": {
-    "word": ["زواج"],
+    "words": ["زواج"],
     "description": "",
     "video_num": 15,
     "sign_time": "5:53"
   },
   "sign_008_11": {
-    "word": ["خطوبة"],
+    "words": ["خطوبة"],
     "description": "",
     "video_num": 15,
     "sign_time": "5:53"
   },
   "sign_008_12": {
-    "word": ["مكان"],
+    "words": ["مكان"],
     "description": "",
     "video_num": 15,
     "sign_time": "6:37"
   },
   "sign_008_13": {
-    "word": ["فسحة", "ترفيه"],
+    "words": ["فسحة", "ترفيه"],
     "description": "",
     "video_num": 15,
     "sign_time": "6:55"
   },
   "sign_008_14": {
-    "word": ["رحلة"],
+    "words": ["رحلة"],
     "description": "",
     "video_num": 15,
     "sign_time": "7:01"
   },
   "sign_008_15": {
-    "word": ["دريم بارك"],
+    "words": ["دريم بارك"],
     "description": "",
     "video_num": 15,
     "sign_time": "7:13"
   },
   "sign_008_16": {
-    "word": ["سينما"],
+    "words": ["سينما"],
     "description": "",
     "video_num": 15,
     "sign_time": "7:29"
   },
   "sign_008_17": {
-    "word": ["مصيف"],
+    "words": ["مصيف"],
     "description": "",
     "video_num": 15,
     "sign_time": "7:59"
   },
   "sign_008_18": {
-    "word": ["مسرح"],
+    "words": ["مسرح"],
     "description": "",
     "video_num": 15,
     "sign_time": "8:06"
   },
   "sign_008_19": {
-    "word": ["نادي"],
+    "words": ["نادي"],
     "description": "",
     "video_num": 15,
     "sign_time": "8:27"
   },
   "sign_008_20": {
-    "word": ["متحف"],
+    "words": ["متحف"],
     "description": "",
     "video_num": 15,
     "sign_time": "8:43"
   },
   "sign_008_21": {
-    "word": ["عابدين"],
+    "words": ["عابدين"],
     "description": "متحف عابدين",
     "video_num": 15,
     "sign_time": "9:10"
   },
   "sign_008_22": {
-    "word": ["قرية فرعونية"],
+    "words": ["قرية فرعونية"],
     "description": "",
     "video_num": 15,
     "sign_time": "9:27"
   },
   "sign_008_23": {
-    "word": ["حديقة"],
+    "words": ["حديقة"],
     "description": "",
     "video_num": 15,
     "sign_time": "9:42"
   },
   "sign_008_24": {
-    "word": ["حفلة", "مهرجان"],
+    "words": ["حفلة", "مهرجان"],
     "description": "",
     "video_num": 15,
     "sign_time": "10:00"
   },
   "sign_008_25": {
-    "word": ["حرب", "حربى"],
+    "words": ["حرب", "حربى"],
     "description": "",
     "video_num": 15,
     "sign_time": "10:24"
   },
   "sign_008_26": {
-    "word": ["قبطي", "مسيحى"],
+    "words": ["قبطي", "مسيحى"],
     "description": "متحف قبطى ضع اشارة متحف قبلها",
     "video_num": 15,
     "sign_time": "10:48"
   },
   "sign_008_27": {
-    "word": ["إسلامي", "مسلم"],
+    "words": ["إسلامي", "مسلم"],
     "description": "متحف اسلامى",
     "video_num": 15,
     "sign_time": "10:08"
   },
   "sign_008_28": {
-    "word": ["سوبر ماركت"],
+    "words": ["سوبر ماركت"],
     "description": "",
     "video_num": 15,
     "sign_time": "11:53"
   },
   "sign_008_29": {
-    "word": ["كارفور"],
+    "words": ["كارفور"],
     "description": "",
     "video_num": 15,
     "sign_time": "12:06"
   },
   "sign_008_30": {
-    "word": ["أهرامات"],
+    "words": ["أهرامات"],
     "description": "",
     "video_num": 15,
     "sign_time": "12:19"
   },
   "sign_008_31": {
-    "word": ["قلعة"],
+    "words": ["قلعة"],
     "description": "",
     "video_num": 15,
     "sign_time": "12:40"

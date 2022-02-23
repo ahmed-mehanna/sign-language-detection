@@ -9,12 +9,12 @@
   "sign_001_5": { "words": ["الله","لله"], "description": "" },
   "sign_001_6": { "words": ["بركاته", "بركة"], "description": "" },
   "sign_001_7": { "words": ["عامل", "حالك"], "description": "" },
-  "sign_001_8": { "words": ["اية", "كيف"], "description": "" },
+  "sign_001_8": { "words": ["اية", "كيف","ازاي"], "description": "" },
   "sign_001_9": { "words": ["الحمد", "الشكر", "شكر"], "description": "" },
   "sign_001_10": { "words": ["تمام", "جيد"], "description": "" },
   "sign_001_11": { "words": ["صباح"], "description": "" },
   "sign_001_12": { "words": ["مساء"], "description": "" },
-  "sign_001_13": { "words": ["الخير", "خير"], "description": "" },
+  "sign_001_13": { "words": ["خير"], "description": "" },
   "sign_001_14": { "words": ["صحتك", "صحة"], "description": "" },
   "sign_001_15": { "words": ["اسم"], "description": "" },
   "sign_001_16": { "words": ["سؤال", "سأل"], "description": "" },
@@ -56,7 +56,7 @@
   "sign_001_52": { "words": ["مترجم"], "description": "" },
   "sign_001_53": { "words": ["منور"], "description": "" },
   "sign_001_54": {
-    "words": ["تفعل", "تعمل"],
+    "words": ["عمل", "فعل"],
     "description": "معناها تعمل بس مش وظيفة مثال: انت بتعمل اية دلوقتى"
   },
   "sign_001_55": { "words": ["اساعد"], "description": "" },

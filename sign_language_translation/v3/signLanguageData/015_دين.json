@@ -114,13 +114,13 @@
     "sign_time": "10:00"
   },
   "sign_015_20": {
-    "words": ["الفجر-الظهر"],
+    "words": ["الفجر","الظهر"],
     "description": "",
     "video_num": 20,
     "sign_time": "10:31"
   },
   "sign_015_21": {
-    "words": ["صلاة الجمعة"],
+    "words": ["صلاة جمعة"],
     "description": "",
     "video_num": 20,
     "sign_time": "12:50"

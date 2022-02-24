@@ -1,0 +1,110 @@
+{
+  "sign_009_1": {
+    "words": ["مواصلات"],
+    "description": "اشارة عربية + اشارة مختلف",
+    "video_num": 15,
+    "sign_time": "13:04"
+  },
+  "sign_009_2": {
+    "words": ["ميكروباص", "مشروع"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "13:20"
+  },
+  "sign_009_3": {
+    "words": ["تاكسي"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "13:42"
+  },
+  "sign_009_4": {
+    "words": ["اتوبيس"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "14:27"
+  },
+  "sign_009_5": {
+    "words": ["تذكرة اتوبيس"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "15:10"
+  },
+  "sign_009_6": {
+    "words": ["موتوسيكل", "موتسكل"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "15:21"
+  },
+  "sign_009_7": {
+    "words": ["توك توك"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "15:27"
+  },
+  "sign_009_8": {
+    "words": ["عجلة"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "15:41"
+  },
+  "sign_009_9": {
+    "words": ["قطار"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "15:50"
+  },
+  "sign_009_10": {
+    "words": ["طائرة"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "16:29"
+  },
+  "sign_009_11": {
+    "words": ["طائرة هليكوبتر", "هيليكوبتر"],
+    "description": "اشارة طائرة + هيليكوبتر",
+    "video_num": 15,
+    "sign_time": "17:00"
+  },
+  "sign_009_12": {
+    "words": ["مركب"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "17:17"
+  },
+  "sign_009_13": {
+    "words": ["حارة"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "17:30"
+  },
+  "sign_009_14": {
+    "words": ["شارع"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "17:41"
+  },
+  "sign_009_15": {
+    "words": ["كوبري"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "17:35"
+  },
+  "sign_009_16": {
+    "words": ["نفق"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "18:04"
+  },
+  "sign_009_17": {
+    "words": ["بنزينة"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "18:21"
+  },
+  "sign_009_18": {
+    "words": ["مطعم"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "18:36"
+  }
+}

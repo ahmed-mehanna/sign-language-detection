@@ -1,0 +1,320 @@
+{
+  "sign_010_1": {
+    "words": ["محافظة"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "12:15"
+  },
+  "sign_010_2": {
+    "words": ["مكان"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "7:22"
+  },
+  "sign_010_3": {
+    "words": ["عين شمس"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "1:27"
+  },
+  "sign_010_4": {
+    "words": ["مرج"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "1:54"
+  },
+  "sign_010_5": {
+    "words": ["المرج الجديدة"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "2:08"
+  },
+  "sign_010_6": {
+    "words": ["القاهرة"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "2:18"
+  },
+  "sign_010_7": {
+    "words": ["حلمية الزيتون"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "2:23"
+  },
+  "sign_010_8": {
+    "words": ["المطرية"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "2:35"
+  },
+  "sign_010_9": {
+    "words": ["المعادي"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "2:53"
+  },
+  "sign_010_10": {
+    "words": ["المهندسين"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "3:14"
+  },
+  "sign_010_11": {
+    "words": ["الهرم"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "3:40"
+  },
+  "sign_010_12": {
+    "words": ["فيصل"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "3:50"
+  },
+  "sign_010_13": {
+    "words": ["الوراق"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "4:02"
+  },
+  "sign_010_14": {
+    "words": ["إمبابة"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "4:23"
+  },
+  "sign_010_15": {
+    "words": ["حلوان"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "4:37"
+  },
+  "sign_010_16": {
+    "words": ["رمسيس"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "5:01"
+  },
+  "sign_010_17": {
+    "words": ["شبرا"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "5:31"
+  },
+  "sign_010_18": {
+    "words": ["مدينة نصر"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "5:42"
+  },
+  "sign_010_19": {
+    "words": ["مصر الجديدة"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "6:05"
+  },
+  "sign_010_20": {
+    "words": ["العتبة"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "6:42"
+  },
+  "sign_010_21": {
+    "words": ["الزمالك"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "7:03"
+  },
+  "sign_010_22": {
+    "words": ["السيدة زينب"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "8:03"
+  },
+  "sign_010_23": {
+    "words": ["العاشر من رمضان"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "8:38"
+  },
+  "sign_010_24": {
+    "words": ["العباسية"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "8:48"
+  },
+  "sign_010_25": {
+    "words": ["القلعة"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "9:22"
+  },
+  "sign_010_26": {
+    "words": ["الحسين"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "9:45"
+  },
+  "sign_010_27": {
+    "words": ["الدقي"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "10:31"
+  },
+  "sign_010_28": {
+    "words": ["الجيزة"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "10:51"
+  },
+  "sign_010_29": {
+    "words": ["الشرقية", "الزقازيق"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "11:25"
+  },
+  "sign_010_30": {
+    "words": ["مرسي مطروح"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "11:46"
+  },
+  "sign_010_31": {
+    "words": ["كفر الشيخ"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "11:57"
+  },
+  "sign_010_32": {
+    "words": ["المحلة"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "12:35"
+  },
+  "sign_010_33": {
+    "words": ["السويس"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "12:57"
+  },
+  "sign_010_34": {
+    "words": ["بور سعيد"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "13:12"
+  },
+  "sign_010_35": {
+    "words": ["الفيوم"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "13:31"
+  },
+  "sign_010_36": {
+    "words": ["دمياط"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "13:47"
+  },
+  "sign_010_37": {
+    "words": ["الإسكندرية"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "14:22"
+  },
+  "sign_010_38": {
+    "words": ["اسماعيلية", "الاسماعيلية"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "16:41"
+  },
+  "sign_010_39": {
+    "words": ["طنطا"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "17:19"
+  },
+  "sign_010_40": {
+    "words": ["دمنهور"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "18:29"
+  },
+  "sign_010_41": {
+    "words": ["بني سويف"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "17:43"
+  },
+  "sign_010_42": {
+    "words": ["المنيا"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "17:53"
+  },
+  "sign_010_43": {
+    "words": ["أسيوط"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "18:30"
+  },
+  "sign_010_44": {
+    "words": ["سوهاج"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "19:59"
+  },
+  "sign_010_45": {
+    "words": ["قنا"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "19:26"
+  },
+  "sign_010_46": {
+    "words": ["الأقصر"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "19:48"
+  },
+  "sign_010_47": {
+    "words": ["أسوان"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "20:00"
+  },
+  "sign_010_48": {
+    "words": ["البحر الأحمر"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "20:20"
+  },
+  "sign_010_49": {
+    "words": ["سيناء", "سينا"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "20:29"
+  },
+  "sign_010_50": {
+    "words": ["الغردقة"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "20:41"
+  },
+  "sign_010_51": {
+    "words": ["شرم الشيخ"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "21:03"
+  },
+  "sign_010_52": {
+    "words": ["العريش"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "21:17"
+  },
+  "sign_010_53": {
+    "words": ["الوادي الجديد"],
+    "description": "",
+    "video_num": 16,
+    "sign_time": "21:39"
+  }
+}

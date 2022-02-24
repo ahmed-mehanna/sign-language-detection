@@ -1,0 +1,188 @@
+{
+  "sign_008_1": {
+    "words": ["إجازة"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "00:45"
+  },
+  "sign_008_2": {
+    "words": ["عيد"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "1:12"
+  },
+  "sign_008_3": {
+    "words": ["عمال"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "2:24"
+  },
+  "sign_008_4": {
+    "words": ["أضحى"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "2:53"
+  },
+  "sign_008_5": {
+    "words": ["فطر"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "3:29"
+  },
+  "sign_008_6": {
+    "words": ["تحرير سيناء"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "3:47"
+  },
+  "sign_008_7": {
+    "words": ["قوات مسلحة", "جيش"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "4:24"
+  },
+  "sign_008_8": {
+    "words": ["ثورة"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "4:42"
+  },
+  "sign_008_9": {
+    "words": ["شم نسيم"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "5:11"
+  },
+  "sign_008_10": {
+    "words": ["زواج"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "5:53"
+  },
+  "sign_008_11": {
+    "words": ["خطوبة"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "5:53"
+  },
+  "sign_008_12": {
+    "words": ["مكان"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "6:37"
+  },
+  "sign_008_13": {
+    "words": ["فسحة", "ترفيه"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "6:55"
+  },
+  "sign_008_14": {
+    "words": ["رحلة"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "7:01"
+  },
+  "sign_008_15": {
+    "words": ["دريم بارك"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "7:13"
+  },
+  "sign_008_16": {
+    "words": ["سينما"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "7:29"
+  },
+  "sign_008_17": {
+    "words": ["مصيف"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "7:59"
+  },
+  "sign_008_18": {
+    "words": ["مسرح"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "8:06"
+  },
+  "sign_008_19": {
+    "words": ["نادي"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "8:27"
+  },
+  "sign_008_20": {
+    "words": ["متحف"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "8:43"
+  },
+  "sign_008_21": {
+    "words": ["عابدين"],
+    "description": "متحف عابدين",
+    "video_num": 15,
+    "sign_time": "9:10"
+  },
+  "sign_008_22": {
+    "words": ["قرية فرعونية"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "9:27"
+  },
+  "sign_008_23": {
+    "words": ["حديقة"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "9:42"
+  },
+  "sign_008_24": {
+    "words": ["حفلة", "مهرجان"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "10:00"
+  },
+  "sign_008_25": {
+    "words": ["حرب", "حربى"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "10:24"
+  },
+  "sign_008_26": {
+    "words": ["قبطي", "مسيحى"],
+    "description": "متحف قبطى ضع اشارة متحف قبلها",
+    "video_num": 15,
+    "sign_time": "10:48"
+  },
+  "sign_008_27": {
+    "words": ["إسلامي", "مسلم"],
+    "description": "متحف اسلامى",
+    "video_num": 15,
+    "sign_time": "10:08"
+  },
+  "sign_008_28": {
+    "words": ["سوبر ماركت"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "11:53"
+  },
+  "sign_008_29": {
+    "words": ["كارفور"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "12:06"
+  },
+  "sign_008_30": {
+    "words": ["أهرامات"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "12:19"
+  },
+  "sign_008_31": {
+    "words": ["قلعة"],
+    "description": "",
+    "video_num": 15,
+    "sign_time": "12:40"
+  }
+}

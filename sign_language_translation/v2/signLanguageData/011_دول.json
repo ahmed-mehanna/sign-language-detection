@@ -1,0 +1,302 @@
+{
+  "sign_011_1": {
+    "words": ["امريكا", "الولايات المتحدة الامريكية"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_2": {
+    "words": ["انجلترا", "بريطانيا", "المملكة المتحدة"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_3": {
+    "words": ["ايطاليا"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_4": {
+    "words": ["اندونسيا"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_5": {
+    "words": ["روسيا"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_6": {
+    "words": ["كندا"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_7": {
+    "words": ["الصين"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_8": {
+    "words": ["الهند"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_9": {
+    "words": ["البرازيل"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_10": {
+    "words": ["الارجنتين"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_11": {
+    "words": ["المكسيك"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_12": {
+    "words": ["اليونان"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_13": {
+    "words": ["افغانستان"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_14": {
+    "words": ["باكستان"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_15": {
+    "words": ["موريتانيا"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_16": {
+    "words": ["اليابان"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_17": {
+    "words": ["السويد"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_18": {
+    "words": ["اسبانيا"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_19": {
+    "words": ["فرنسا"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_20": {
+    "words": ["البرتغال"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_21": {
+    "words": ["المانيا"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_22": {
+    "words": ["الدنمارك"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_23": {
+    "words": ["النمسا"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_24": {
+    "words": ["سويسرا"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_25": {
+    "words": ["هولندا"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_26": {
+    "words": ["الجزائر"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_27": {
+    "words": ["البحرين"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_28": {
+    "words": ["اليمن"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_29": {
+    "words": ["الامارات"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_30": {
+    "words": ["الاردن"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_31": {
+    "words": ["العراق"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_32": {
+    "words": ["السودان"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_33": {
+    "words": ["السعودية"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_34": {
+    "words": ["ايران"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_35": {
+    "words": ["المغرب"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_36": {
+    "words": ["الكويت"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_37": {
+    "words": ["عمان"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_38": {
+    "words": ["سوريا"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_39": {
+    "words": ["تونس"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_40": {
+    "words": ["تركيا"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_41": {
+    "words": ["ليبيا"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_42": {
+    "words": ["لبنان"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_43": {
+    "words": ["قطر"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_44": {
+    "words": ["فلسطين"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_45": {
+    "words": ["ماليزيا"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_46": {
+    "words": ["الصومال"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_47": {
+    "words": ["اسيا"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_48": {
+    "words": ["افريقيا"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_49": {
+    "words": ["اوروبا"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  },
+  "sign_011_50": {
+    "words": ["مصر"],
+    "description": "",
+    "video_num": 17,
+    "sign_time": ""
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "sign_007_1": {
+    "words": ["فلاح"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "16:26"
+  },
+  "sign_007_2": {
+    "words": ["محاسب"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "17:03"
+  },
+  "sign_007_3": {
+    "words": ["كام"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "17:24"
+  },
+  "sign_007_4": {
+    "words": ["مدرس"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "17:55"
+  },
+  "sign_007_5": {
+    "words": ["مهندس"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "18:11"
+  },
+  "sign_007_6": {
+    "words": ["كيميائي"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "18:34"
+  },
+  "sign_007_7": {
+    "words": ["دكتور","طبيب"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "19:02"
+  },
+  "sign_007_8": {
+    "words": ["معيد"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "19:18"
+  },
+  "sign_007_9": {
+    "words": ["ترزي", "خياط"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "19:39"
+  },
+  "sign_007_10": {
+    "words": ["سائق", "سواق"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "19:58"
+  },
+  "sign_007_11": {
+    "words": ["مسئول"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "20:19"
+  },
+  "sign_007_12": {
+    "words": ["مبلط"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "20:29"
+  },
+  "sign_007_13": {
+    "words": ["رخام"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "20:44"
+  },
+  "sign_007_14": {
+    "words": ["ضابط شرطة"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "20:57"
+  },
+  "sign_007_15": {
+    "words": ["ضابط جيش"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "21:10"
+  },
+  "sign_007_16": {
+    "words": ["طالب"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "21:29"
+  },
+  "sign_007_17": {
+    "words": ["عاطل"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "21:45"
+  },
+  "sign_007_18": {
+    "words": ["نجار"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "22:07"
+  },
+  "sign_007_19": {
+    "words": ["نقاش"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "22:26"
+  },
+  "sign_007_20": {
+    "words": ["مترجم"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "22:50"
+  },
+  "sign_007_21": {
+    "words": ["رئيس"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "23:11"
+  },
+  "sign_007_22": {
+    "words": ["رجل إطفاء"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "23:41"
+  },
+  "sign_007_23": {
+    "words": ["حداد"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "23:59"
+  },
+  "sign_007_24": {
+    "words": ["جواز سفر"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "24:23"
+  },
+  "sign_007_25": {
+    "words": ["بطاقة"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "24:33"
+  },
+  "sign_007_26": {
+    "words": ["عائلية"],
+    "description": "بطاقة عائلية",
+    "video_num": 14,
+    "sign_time": "24:59"
+  },
+  "sign_007_27": {
+    "words": ["مؤهل دراسي"],
+    "description": "اشارة ورقة + اشارة شهادة",
+    "video_num": 14,
+    "sign_time": "25:09"
+  },
+  "sign_007_28": {
+    "words": ["عقد عمل"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "25:31"
+  },
+  "sign_007_29": {
+    "words": ["تعيين"],
+    "description": "",
+    "video_num": 14,
+    "sign_time": "25:49"
+  }
+}

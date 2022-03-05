@@ -1,7 +1,7 @@
 from typing import Optional
 from fastapi import FastAPI,Request
 from fastapi.responses import HTMLResponse
-from text_translation import pipeline
+from text_translation import pipeline as translate_text
 
 app = FastAPI()
 
@@ -12,7 +12,7 @@ def read_root():
 
 @app.get("/text/{text}")
 def read_item(text: str):
-    output = pipeline(text)
+    output = translate_text(text)
     print(output)
     return {"signs": output}
 

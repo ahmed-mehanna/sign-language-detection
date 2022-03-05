@@ -1,0 +1,326 @@
+{
+  "sign_012_1": {
+    "words": ["صباح", "صبح"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": ""
+  },
+  "sign_012_2": {
+    "words": ["مساء", "بليل"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": ""
+  },
+  "sign_012_3": {
+    "words": ["شروق"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": ""
+  },
+  "sign_012_4": {
+    "words": ["غروب"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": ""
+  },
+  "sign_012_5": {
+    "words": ["قريبا", "قريب"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": ""
+  },
+  "sign_012_6": {
+    "words": ["بعد"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": ""
+  },
+  "sign_012_7": {
+    "words": ["قبل"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": ""
+  },
+  "sign_012_8": {
+    "words": ["علاج"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "2:27"
+  },
+  "sign_012_9": {
+    "words": ["يوم"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "2:40"
+  },
+  "sign_012_10": {
+    "words": ["يوميا", "كل يوم"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "3:09"
+  },
+  "sign_012_11": {
+    "words": ["شهر"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "3:25"
+  },
+  "sign_012_12": {
+    "words": ["شهريا", "كل شهر"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "3:47"
+  },
+  "sign_012_13": {
+    "words": ["سنة"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "4:03"
+  },
+  "sign_012_14": {
+    "words": ["سنويا"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "4:15"
+  },
+  "sign_012_15": {
+    "words": ["تاجيل"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "4:25"
+  },
+  "sign_012_16": {
+    "words": ["عدوى", "هعديك"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "5:40"
+  },
+  "sign_012_17": {
+    "words": ["عدانى", "امرضنى"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "5:54"
+  },
+  "sign_012_18": {
+    "words": ["اسبوع"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "6:35"
+  },
+  "sign_012_19": {
+    "words": ["اسبوعيا"],
+    "description": "اسبوع + اشارة استمرار",
+    "video_num": 18,
+    "sign_time": "7:09"
+  },
+  "sign_012_20": {
+    "words": ["سبت"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "7:35"
+  },
+  "sign_012_21": {
+    "words": ["الحد", "الاخد"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "8:25"
+  },
+  "sign_012_22": {
+    "words": ["الاثنين", "الاتنين"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "8:52"
+  },
+  "sign_012_23": {
+    "words": ["الثلاثاء", "التلات"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "9:03"
+  },
+  "sign_012_24": {
+    "words": ["الاربعاء", "الاربع"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "9:42"
+  },
+  "sign_012_25": {
+    "words": ["خميس"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "9:52"
+  },
+  "sign_012_26": {
+    "words": ["جمعة"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "10:12"
+  },
+  "sign_012_27": {
+    "words": ["تاريخ", "تاريخى"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "10:55"
+  },
+  "sign_012_28": {
+    "words": ["فصول السنة"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "11:15"
+  },
+  "sign_012_29": {
+    "words": ["صيف"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "11:40"
+  },
+  "sign_012_30": {
+    "words": ["شتاء", "شتا"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "11:48"
+  },
+  "sign_012_31": {
+    "words": ["ربيع"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "12:00"
+  },
+  "sign_012_32": {
+    "words": ["خريف"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "12:10"
+  },
+  "sign_012_33": {
+    "words": ["شجرة", "شجر"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "12:15"
+  },
+  "sign_012_34": {
+    "words": ["هجرية", "هجرى"],
+    "description": "شهور هجرية او سنة هجرية",
+    "video_num": 18,
+    "sign_time": "12:25"
+  },
+  "sign_012_35": {
+    "words": ["ميلادية"],
+    "description": "شهور ميلادية او سنة ميلادية",
+    "video_num": 18,
+    "sign_time": "12:25"
+  },
+  "sign_012_36": {
+    "words": ["رياضة"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": ""
+  },
+  "sign_012_37": {
+    "words": ["سباحة"],
+    "description": "رياضة السباحة",
+    "video_num": 18,
+    "sign_time": ""
+  },
+  "sign_012_38": {
+    "words": ["شطرنج"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": ""
+  },
+  "sign_012_39": {
+    "words": ["بينج بونج"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": ""
+  },
+  "sign_012_40": {
+    "words": ["كاراتية"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": ""
+  },
+  "sign_012_41": {
+    "words": ["رفع الاثقال"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": ""
+  },
+  "sign_012_42": {
+    "words": ["كرة القدم"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": ""
+  },
+  "sign_012_43": {
+    "words": ["منافسة", "عدو"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": ""
+  },
+  "sign_012_44": {
+    "words": ["مواجهة"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": ""
+  },
+  "sign_012_45": {
+    "words": ["فريق"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": ""
+  },
+  "sign_012_46": {
+    "words": ["الاسماعيلى", "الاسماعيلية"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "16:20"
+  },
+  "sign_012_47": {
+    "words": ["الاهلى"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": ""
+  },
+  "sign_012_48": {
+    "words": ["صحة"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": "18:14"
+  },
+  "sign_012_49": {
+    "words": ["اجسام انسان"],
+    "description": "اشر على الجزء المراد الاشار علية",
+    "video_num": 18,
+    "sign_time": ""
+  },
+  "sign_012_50": {
+    "words": ["امعاء"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": ""
+  },
+  "sign_012_51": {
+    "words": ["قفص صدرى"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": ""
+  },
+  "sign_012_52": {
+    "words": ["عظم"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": ""
+  },
+  "sign_012_53": {
+    "words": ["مفاصل"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": ""
+  },
+  "sign_012_54": {
+    "words": ["اعاقة"],
+    "description": "",
+    "video_num": 18,
+    "sign_time": ""
+  }
+}

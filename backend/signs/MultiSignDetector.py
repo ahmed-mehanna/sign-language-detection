@@ -24,9 +24,34 @@ def mediapipe_detection(image,model):
     image  = cv2.cvtColor(image,cv2.COLOR_RGB2BGR)
     return image,results
     
-    
 
-class RealTime:
+
+def extract_keypoints(results,left,right):
+
+    # extract left hand
+    if results.left_hand_landmarks:
+        left_hand = np.array([ [res.x,res.y] for res in results.left_hand_landmarks.landmark ]).flatten()
+    else:
+        if type(left) == np.ndarray:
+            left_hand = left
+        else:
+            left_hand = np.zeros(num_hand_marks*2)
+
+
+    # extract right hand
+    if results.right_hand_landmarks:
+        right_hand = np.array([ [res.x,res.y] for res in results.right_hand_landmarks.landmark ]).flatten()
+    else:
+        if type(right) == np.ndarray:
+            right_hand = right
+        else:
+            right_hand = np.zeros(num_hand_marks*2)
+
+
+    return left_hand, right_hand
+
+
+class MultiSignPredictor:
     def __init__(self, holistic, fsize=(512, 512)):
         self.fsize = fsize
         self.listed_frames = []
@@ -40,28 +65,50 @@ class RealTime:
         self.last_frame_left_hand = None
         self.last_frame_right_hand = None
         
-    def read_frame(self,frame):
+        self.counter = 0
+        self.discarded_frames = 0
+        
+    def detect_frame(self,frame):
         
         frame = cv2.resize(frame, self.fsize)
         image, results = mediapipe_detection(frame, self.holistic)
-        self.draw_styled_landmarks(image, results)
-        frame_left_hand, frame_right_hand = self.extract_keypoints(results,left=self.last_frame_left_hand,right=self.last_frame_right_hand)
+
+        frame_left_hand, frame_right_hand = extract_keypoints(results,left=self.last_frame_left_hand,right=self.last_frame_right_hand)
         
         
         self.frame_left_hand = frame_left_hand.sum().round(2)
         self.frame_right_hand = frame_right_hand.sum().round(2)
-        return frame,image
+        return frame,results
         
     
     def update_last_frame(self):
         self.last_frame_left_hand = self.frame_left_hand
         self.last_frame_right_hand = self.frame_right_hand
     
-    def add_listed_frame(self, frame):
+    def save_frame(self, frame):
         self.listed_frames.append(frame)
     
 
-    def considered_frame(self,right_hand_diff_threshold=0.5, left_hand_diff_threshold=0.5):
+    def have_sign(self,frame):
+        valid = self.valid_frame()
+        if valid:
+            self.counter += 1
+            self.update_last_frame()
+            self.discarded_frames = 0
+            self.save_frame(frame)
+        else:
+            self.discarded_frames += 1
+            if self.discarded_frames == 10:
+                self.counter = 0
+                self.discarded_frames = 0
+                if len(self.listed_frames) >= 16:
+                    return True
+                else:
+                    self.truncate_listed_frames()
+        return False
+            
+    
+    def valid_frame(self,right_hand_diff_threshold=0.5, left_hand_diff_threshold=0.5):
         try:
             right_hand_diff = np.abs(self.last_frame_right_hand - self.frame_right_hand).round(2)
             left_hand_diff = np.abs(self.last_frame_left_hand - self.frame_left_hand).round(2)
@@ -73,46 +120,8 @@ class RealTime:
             return True
 
 
-    def extract_keypoints(self, results,left,right):
-        
-        # extract left hand
-        if results.left_hand_landmarks:
-            left_hand = np.array([ [res.x,res.y] for res in results.left_hand_landmarks.landmark ]).flatten()
-        else:
-            if type(left) == np.ndarray:
-                left_hand = left
-            else:
-                left_hand = np.zeros(num_hand_marks*2)
-            
-            
-        # extract right hand
-        if results.right_hand_landmarks:
-            right_hand = np.array([ [res.x,res.y] for res in results.right_hand_landmarks.landmark ]).flatten()
-        else:
-            if type(right) == np.ndarray:
-                right_hand = right
-            else:
-                right_hand = np.zeros(num_hand_marks*2)
-            
-        
-        return left_hand, right_hand
 
-    def draw_styled_landmarks(self, image, results):
-        # Draw pose connections
-        mp_drawing.draw_landmarks(image, results.pose_landmarks, mp_holistic.POSE_CONNECTIONS,
-                                mp_drawing.DrawingSpec(color=(80,22,10), thickness=2, circle_radius=4), 
-                                mp_drawing.DrawingSpec(color=(80,44,121), thickness=2, circle_radius=2)
-                                ) 
-        # Draw left hand connections
-        mp_drawing.draw_landmarks(image, results.left_hand_landmarks, mp_holistic.HAND_CONNECTIONS, 
-                                mp_drawing.DrawingSpec(color=(121,22,76), thickness=2, circle_radius=4), 
-                                mp_drawing.DrawingSpec(color=(121,44,250), thickness=2, circle_radius=2)
-                                ) 
-        # Draw right hand connections  
-        mp_drawing.draw_landmarks(image, results.right_hand_landmarks, mp_holistic.HAND_CONNECTIONS, 
-                                mp_drawing.DrawingSpec(color=(245,117,66), thickness=2, circle_radius=4), 
-                                mp_drawing.DrawingSpec(color=(245,66,230), thickness=2, circle_radius=2)
-                                ) 
+
     
     def get_frames_indices(self, frames_no):
         self.listed_frames = self.listed_frames[1:]
@@ -136,4 +145,3 @@ class RealTime:
             "L-D": np.abs(self.last_frame_left_hand - self.frame_left_hand).round(2),
             "R-D": np.abs(self.last_frame_right_hand - self.frame_right_hand).round(2)
         })
-

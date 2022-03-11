@@ -17,3 +17,5 @@ def read_item(text: str):
     return {"signs": output}
 
 
+
+# uvicorn main:app --port 8001 --reload

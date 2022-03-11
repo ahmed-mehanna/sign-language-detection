@@ -125,7 +125,15 @@ class MultiSignPredictor:
     
     def get_frames_indices(self, frames_no):
         self.listed_frames = self.listed_frames[1:]
+
         return np.linspace(0, len(self.listed_frames)-1, frames_no, dtype=np.int16)
+        
+    
+    def get_frames(self,frames_no):
+        self.listed_frames = self.listed_frames[1:]
+
+        final_idx =  np.linspace(0, len(self.listed_frames)-1, frames_no, dtype=np.int16)
+        return [self.listed_frames[i] for i in final_idx]
     
     def truncate_listed_frames(self):
         self.listed_frames = []

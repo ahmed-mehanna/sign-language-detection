@@ -13,13 +13,7 @@ from pytorch_model import PytorchPredictor
 from keras_model import KerasPredictor
 from MultiSignDetector import MultiSignPredictor
 
-
-holistic = mp.solutions.holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=0.5)
-mp_holistic = mp.solutions.holistic
-mp_drawing = mp.solutions.drawing_utils
-
 n_classes = len(actions)
-
 WEIGHTS_PATH=os.path.join("..","..","sign_language_detection","ensemble","V1")
 KERAS_WEIGHTS_PATH = os.path.join(WEIGHTS_PATH,"keras_weights","V1.h5")
 TORCH_WEIGHTS_PATH = os.path.join(WEIGHTS_PATH,"pytorch_weights.tar")
@@ -27,16 +21,65 @@ TORCH_WEIGHTS_PATH = os.path.join(WEIGHTS_PATH,"pytorch_weights.tar")
 
 
 
-pytorch_predictor = PytorchPredictor(path=TORCH_WEIGHTS_PATH)
-keras_predictor = KerasPredictor(path=KERAS_WEIGHTS_PATH)
-
-
-multi_sign_detector = MultiSignPredictor(holistic, (512,512))
 
 
 class SignPredictor:
+
+    def __init__(self):
+        holistic = mp.solutions.holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=0.5)
+        self.mp_holistic = mp.solutions.holistic
+        self.mp_drawing = mp.solutions.drawing_utils
+        self.pytorch_predictor = PytorchPredictor(path=TORCH_WEIGHTS_PATH)
+        self.keras_predictor = KerasPredictor(path=KERAS_WEIGHTS_PATH)
+        self.multi_sign_detector = MultiSignPredictor(holistic, (512,512))
+
+
+    def predict(self,frame_list):
+
+        for frame in frame_list:
+            self.pytorch_predictor.add_frame(frame)
+            self.keras_predictor.add_frame(frame)
+
+        res1 = self.pytorch_predictor.predict()
+        res2 = self.keras_predictor.predict()
+        res =   res1 + res2
+        arg_max = np.argmax(res)
+        action = actions[arg_max]
+
+        return arg_max,action
+
     
-    def process(cap):
+    def process_sign(self,cap):
+        lis = []
+        while cap.isOpened():
+            ret, frame = cap.read()
+            if(not ret):
+                break
+
+            lis.append(frame)
+            # cv2.imshow("Real-Time", frame)
+            
+            # if cv2.waitKey(50) & 0xFF == ord('q'):
+            #     break
+
+        cap.release()
+        cv2.destroyAllWindows()
+
+    
+        final_idx =  np.linspace(0, len(lis)-1, 16, dtype=np.int16)
+        final_lis =  [lis[i] for i in final_idx]
+
+        sign_id,sign_name = self.predict(final_lis)
+        
+        return sign_name
+
+
+
+
+
+
+    
+    def process_multisign(self,cap):
         sentence = []
         predictions = []
 
@@ -47,39 +90,32 @@ class SignPredictor:
             if(not ret):
                 break
             
-            frame,body_keypoints = multi_sign_detector.detect_frame(frame)
+            frame,body_keypoints = self.multi_sign_detector.detect_frame(frame)
             
 
-            if multi_sign_detector.have_sign(frame):
-                frame_list = multi_sign_detector.get_frames_indices(frames_no=16)
-
-                for frame_idx in frame_list:
-                    pytorch_predictor.add_frame(multi_sign_detector[frame_idx])
-                    keras_predictor.add_frame(multi_sign_detector[frame_idx])
-
-                res1 = pytorch_predictor.predict()
-                res2 = keras_predictor.predict()
-                res = res1 + res2
-                arg_max = np.argmax(res)
-                predictions.append(arg_max)
+            if self.multi_sign_detector.have_sign(frame):
+                frames = self.multi_sign_detector.get_frames(frames_no=16)
+                sign_num,action = self.predict(frames)
+                
+                predictions.append(sign_num)
                 predictions = predictions[-16:]
                 print(predictions)
-                multi_sign_detector.truncate_listed_frames()
-                sentence.append(actions[arg_max])
-                sentence = sentence[-4:]
+                self.multi_sign_detector.truncate_listed_frames()
+                sentence.append(action)
+                
 
 
-            image = frame.copy()
-            draw_styled_landmarks(image, body_keypoints)
-            display_sentence(image,sentence)
-            dispay_probability(image,multi_sign_detector.get_data())
-            display_counters(image,multi_sign_detector.counter,multi_sign_detector.discarded_frames)
+            # image = frame.copy()
+            # draw_styled_landmarks(image, body_keypoints)
+            # display_sentence(image,sentence[-4:])
+            # dispay_probability(image,self.multi_sign_detector.get_data())
+            # display_counters(image,self.multi_sign_detector.counter,self.multi_sign_detector.discarded_frames)
 
 
-            cv2.imshow("Real-Time", image)
+            # cv2.imshow("Real-Time", image)
 
-            if cv2.waitKey(50) & 0xFF == ord('q'):
-                break
+            # if cv2.waitKey(50) & 0xFF == ord('q'):
+            #     break
 
         cap.release()
         cv2.destroyAllWindows()

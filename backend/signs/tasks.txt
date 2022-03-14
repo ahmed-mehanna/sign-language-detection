@@ -1,0 +1,28 @@
+1 - Upload files
+https://www.youtube.com/watch?v=N6bpBkwFdc8
+
+https://www.youtube.com/watch?v=Ofesfy686jY
+
+https://fastapi.tiangolo.com/tutorial/request-files/
+
+
+
+2 - chnge text to be stable
+
+3 - make backend split frames and each video classified (change real time)
+
+
+
+
+
+
+
+
+
+
+
+- get old real time predector 
+- test the old real time on pytorch and tensorflow 
+- update new real time so it can work with either tensorflow or pytorch
+- change the main for the jupyter notebook
+- write them to work from a file

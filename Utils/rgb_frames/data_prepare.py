@@ -2,7 +2,6 @@ import os
 import cv2
 import numpy as np
 from PIL import Image
-from torchvision.transforms.functional import to_pil_image
 
 def get_frames(video_path, n_frames=1):
     frames = []
@@ -28,6 +27,10 @@ def store_frames(frames, path_to_store):
         frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
         path = os.path.join(path_to_store, "frame"+str(i)+".jpg")
         cv2.imwrite(path, frame)
+
+
+
+from torchvision.transforms.functional import to_pil_image
 
 def denormalize(x_, mean, std):
     x = x_.clone()

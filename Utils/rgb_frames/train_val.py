@@ -37,7 +37,7 @@ def loss_epoch(model, loss_func, dataset_dl, device, opt=None):
     len_data = len(dataset_dl.dataset)
     for xb, yb in tqdm(dataset_dl):
         xb, yb = xb.to(device), yb.to(device)
-        model = model.to(device)
+        # model = model.to(device)
         output=model(xb)
         loss_b, metric_b = loss_batch(loss_func, output, yb, opt)
         running_loss += loss_b
@@ -53,7 +53,7 @@ def loss_epoch(model, loss_func, dataset_dl, device, opt=None):
     metric = running_metric/float(len_data)
     return loss, metric
 
-def train_val(model, loss_func, opt, train_dl, val_dl, lr_scheduler, start_epoch, end_epoch, path_to_weights, path_to_checkpoint, device, loss_history=None, metric_history=None):   
+def train_val(model, loss_func, opt, train_dl, val_dl, lr_scheduler, batch_size, start_epoch, end_epoch, path_to_weights, path_to_checkpoint, device, loss_history=None, metric_history=None):   
     if loss_history is None:
         loss_history={
             "train": [],
@@ -72,6 +72,8 @@ def train_val(model, loss_func, opt, train_dl, val_dl, lr_scheduler, start_epoch
     best_epoch = 0
 
     best_loss=float('inf')
+
+    model = model.to(device)
     
     for epoch in range(start_epoch, end_epoch):
         current_lr=get_lr(opt)
@@ -100,6 +102,7 @@ def train_val(model, loss_func, opt, train_dl, val_dl, lr_scheduler, start_epoch
                 "epochs": end_epoch,
                 "last_epoch": epoch,
                 "best_epoch": best_epoch,
+                "batch_size": batch_size,
                 "model_state_dict": best_model_wts,
                 "optimizer_state_dict": best_opt_hyp_params,
                 "lr_scheduler_state_dict": best_lr_scheduler_hyp_params,
@@ -122,6 +125,7 @@ def train_val(model, loss_func, opt, train_dl, val_dl, lr_scheduler, start_epoch
         checkpoint = {
                 "epochs": end_epoch,
                 "last_epoch": epoch,
+                "batch_size": batch_size,
                 "model_state_dict": model.state_dict(),
                 "optimizer_state_dict": opt.state_dict(),
                 "lr_scheduler_state_dict": lr_scheduler.state_dict(),

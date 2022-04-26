@@ -14,9 +14,9 @@ from keras_model import KerasPredictor
 from MultiSignDetector import MultiSignPredictor
 
 n_classes = len(actions)
-WEIGHTS_PATH=os.path.join("..","..","sign_language_detection","ensemble","V1")
-KERAS_WEIGHTS_PATH = os.path.join(WEIGHTS_PATH,"keras_weights","V1.h5")
-TORCH_WEIGHTS_PATH = os.path.join(WEIGHTS_PATH,"pytorch_weights.tar")
+WEIGHTS_PATH=os.path.join("..","..","weights")
+KERAS_WEIGHTS_PATH = os.path.join(WEIGHTS_PATH,"Arabic.h5")
+TORCH_WEIGHTS_PATH = "None"
 
 
 
@@ -29,20 +29,19 @@ class SignPredictor:
         holistic = mp.solutions.holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=0.5)
         self.mp_holistic = mp.solutions.holistic
         self.mp_drawing = mp.solutions.drawing_utils
-        self.pytorch_predictor = PytorchPredictor(path=TORCH_WEIGHTS_PATH)
+        # self.pytorch_predictor = PytorchPredictor(path=TORCH_WEIGHTS_PATH)
         self.keras_predictor = KerasPredictor(path=KERAS_WEIGHTS_PATH)
         self.multi_sign_detector = MultiSignPredictor(holistic, (512,512))
 
 
     def predict(self,frame_list):
+        final_idx =  np.linspace(0, len(frame_list)-1, 16, dtype=np.int16)
+        frame_list =  [frame_list[i] for i in final_idx]
 
         for frame in frame_list:
-            self.pytorch_predictor.add_frame(frame)
             self.keras_predictor.add_frame(frame)
 
-        res1 = self.pytorch_predictor.predict()
-        res2 = self.keras_predictor.predict()
-        res =   res1 + res2
+        res = self.keras_predictor.predict()
         arg_max = np.argmax(res)
         action = actions[arg_max]
 

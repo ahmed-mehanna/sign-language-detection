@@ -1,5 +1,6 @@
 import shutil
 import base64
+import string
 import cv2
 import numpy as np
 from fastapi import FastAPI, File,UploadFile
@@ -33,14 +34,19 @@ sign_predictor = SignPredictor()
 
 class Data(BaseModel):
     data: List
+    hand_label: str
 
 
 @app.post("/test")
 async def test(data:Data):
+    hand_label = data.hand_label
     frame_list_data = (data.data)
     lis = []
     for frame in frame_list_data:
-        lis.append(readb64(frame))
+        frame = readb64(frame)
+        if hand_label == 'Left':
+            frame = cv2.flip(frame, 1)
+        lis.append(frame)
     
     
     arg,letter = sign_predictor.predict(lis)
